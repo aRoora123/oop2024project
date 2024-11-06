@@ -21,17 +21,4 @@ Gamified_Learning_Platform/
 │   └── problemSets.csv      # Stores game questions and answers
 └── README.md                # Project documentation
 
-#Libraries used
-
-1.windows.h
-SetConsoleTextAttribute: Change console text color.
-Sleep(milliseconds): Add a delay to the program.
-system("CLS"): Clear the console screen.
-
-2.conio.h
-Provides basic console input/output functions to create a more interactive UI and handle keyboard inputs.
-
-<chrono> and <thread>
-std::this_thread::sleep_for: Cross-platform alternative to Sleep, used for time-based delays.
-std::chrono: Used for tracking elapsed time, particularly to determine the scoring based on completion time.
 
